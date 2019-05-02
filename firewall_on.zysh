@@ -3,8 +3,14 @@
 #	Date:		02-May-2019
 #	Version:	0.0.1
 #	License:	GPL
-# Remarks: This shell-script is designet do run on ZyXEL USG Sheel.
-####
+# Remarks: This shell-script is designet do run on ZyXEL USG Shell.
+###
+
+# Activate Configuration Mode
+configure terminal
 
 # Activate USG Policy Control
 secure-policy activate
+
+# Leaving Configuration Mode
+exit
