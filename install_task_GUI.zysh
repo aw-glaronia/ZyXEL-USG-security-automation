@@ -1,0 +1,16 @@
+####
+#	Author:		Andreas Walker <a.walker@glaronia.ch>
+#	Date:		02-May-2019
+#	Version:	0.0.1
+#	License:	GPL
+# Remarks: This shell-script is designet do run on ZyXEL USG Shell.
+###
+
+# Activate Configuration Mode
+configure terminal
+
+# Activate USG Policy Control
+schedule-run 1 firewall_on.zysh daily 02:00
+
+# Leaving Configuration Mode
+exit
