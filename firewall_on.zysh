@@ -1,0 +1,10 @@
+####
+#	Author:		Andreas Walker <a.walker@glaronia.ch>
+#	Date:		02-May-2019
+#	Version:	0.0.1
+#	License:	GPL
+# Remarks: This shell-script is designet do run on ZyXEL USG Sheel.
+####
+
+# Activate USG Policy Control
+secure-policy activate
